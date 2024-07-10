@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Haircare My Hobby 🪮👑</title>
+    <style>
+      body {
+        /* background: #d99651; */
+        background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/129/455/original/naturalHairBackground.png?1718720851);
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+      }
+
+      h1 {
+        text-align: center;
+      }
+
+      h2 {
+        text-align: center;
+      }
+
+      p {
+        font-size: 18px;
+        line-height: 1.5;
+      }
+      button {
+        display: block;
+        margin: 20px auto;
+        border-radius: 10px;
+        padding: 15px;
+        background: #d99651;
+        border: 4px solid #3a2304;
+        font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+        color: black;
+        transition: all 200ms ease-in-out;
+      }
+
+      button:hover {
+        background: #a45721;
+        cursor: pointer;
+      }
+
+      img {
+        max-width: 100%;
+        transition: all opacity 150ms ease-in-out;
+        border-radius: 10px;
+      }
+
+      img:hover {
+        filter: contrast(50%);
+        transform: scale(1.1);
+      }
+
+      footer {
+        text-align: center;
+        color: #3a2304;
+        font-size: 18px;
+        margin-top: 5px;
+      }
+
+      ul {
+        text-align: center;
+        list-style: none;
+        margin: 15px auto;
+        margin-left: -75px;
+        text-align: center;
+      }
+
+      li {
+        display: inline-block;
+      }
+
+      a {
+        color: #321c0f;
+        text-decoration: none;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+
+      .container {
+        max-width: 650px;
+        margin: 20px auto;
+        background: #a45721;
+        padding: 20px;
+        border-radius: 10px;
+      }
+
+      .theme-button {
+        font-size: 16px;
+        background: #321c0f;
+        color: #a45721;
+      }
+
+      .theme-button:hover {
+        color: #d99651;
+      }
+
+      .natural-hair-header img {
+        border-radius: 8px;
+        transition: all opacity 150ms ease-in-out;
+      }
+      .natural-hair-header:hover {
+        /* With the Filter you can add css filters*/
+        filter: contrast(50%);
+        transform: scale(1.1);
+      }
+
+      .header-img {
+        padding-top: 20px;
+      }
+
+      .grid {
+        margin: 15px;
+        display: grid;
+        /* You want to take two columns and you want the width of each column
+             to take the exact amount of space it needs to fill each column with the gap
+             space included */
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 15px;
+        /* fractional unit : the space a column takes and its going
+             to automatically calculate the width based on whatever is around it */
+      }
+
+      .grid img {
+        width: 100%;
+        border-radius: 8px;
+        /* use if your photos have different sizes. Recommend finding the same
+             size image.  */
+        object-fit: cover;
+        transition: all 150ms ease-in-out;
+      }
+
+      .grid img:hover {
+        transform: scale(1.5);
+      }
+      .header {
+        line-height: 15px;
+      }
+
+      .dark-theme {
+        background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/129/457/original/naturalHairBackgroundDark.png?1718726975);
+        color: #a45721;
+        /* opacity: 0.5;
+             background-color: black; */
+      }
+      .dark-theme footer {
+        color: #a45721;
+      }
+
+      .dark-theme a {
+        color: #a45721;
+      }
+
+      .dark-theme .link {
+        color: #a45721;
+        background: #f8c598;
+        border-color: #a45721;
+      }
+
+      .dark-theme li .product-button {
+        color: #a45721;
+        background: #f8c598;
+        border-color: #a45721;
+      }
+
+      .dark-theme .theme-button {
+        color: #3a2304;
+        background: #a45721;
+      }
+
+      .dark-theme .theme-button:hover {
+        background: #321c0f;
+        color: #a45721;
+      }
+
+      .dark-theme .product-button:hover {
+        color: #f8c598;
+        background-color: #a45721;
+        border-color: #f8c598;
+      }
+
+      .dark-theme .container {
+        background: #3a2304;
+      }
+
+      .link {
+        padding: 14px;
+        text-align: center;
+        background: #d99651;
+        border-radius: 10px;
+        color: #321c0f;
+        border: 4px solid #3a2304;
+        margin-bottom: 20px;
+        text-decoration: none;
+      }
+
+      .link:hover {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+
+  <body>
+    <button class="theme-button">☀️Change Theme🌙</button>
+    <div class="container">
+      <div class="header">
+        <h1>Natural Hair Care</h1>
+        <h2>A Self-Care Necessity</h2>
+      </div>
+      <div class="header-img">
+        <a href="https://www.youtube.com/watch?v=4yTA-om-pRk" target="_blank">
+          <img
+            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/129/394/original/naturalHairImage2.jpg?1718661600"
+            class="natural-hair-header"
+          />
+        </a>
+      </div>
+      <div class="grid">
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/129/396/original/naturalHairImage6.jpg?1718661824"
+        />
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/129/395/original/naturalHairImage3.jpg?1718661685"
+        />
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/129/399/original/naturalHairImage4.jpg?1718661961"
+        />
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/129/398/original/naturalHairImage5.jpeg?1718661950"
+        />
+      </div>
+      <p>
+        I started my natural hair journey in 2017. I became a student of my
+        hair, learning about the products it liked, the best styles, and the
+        techniques I needed to use. When trying out new hair styles, I would
+        watch multiple tutorial videos on YouTube and then modify the skills to
+        best fit my needs. Learning new styles became very relaxing and exciting
+        for me. As my hair grew, the possibilities for new styles became
+        endless, and I jumped at the chance to try something new. Click the link
+        below to learn different styles you can try on your own at home!
+      </p>
+      <ul>
+        <li>
+          <a
+            href="https://www.youtube.com/watch?v=Mzcn2VoVHJs"
+            target="_blank"
+            class="link"
+            >Natural Hair Tutorials</a
+          >
+        </li>
+        <li>
+          <button class="product-button">Natural Hair Tips?</button>
+        </li>
+      </ul>
+      <footer>Coded with HTML, CSS, and JavaScript by Chanel Briggs💟👩🏾‍💻</footer>
+    </div>
+
+    <script>
+      function darkMode() {
+        let body = document.querySelector("body");
+        // .contains is going to check to see if the body element has a class
+        // of "dark-theme" (or whatever you put in the parenthesis).
+        // if it returns true and the button was clicked, it will remove the class.
+        // if it returns false and the button was clicked it will add the theme and change
+        // the body to the dark mode settings.
+        // if (body.classList.contains("dark-theme")) {
+        //   body.classList.remove("dark-theme");
+        // } else {
+        //   body.classList.add("dark-theme");
+        // }
+
+        //toggle means that if the class is there it will remove it and if its
+        //not there it will add it.
+        body.classList.toggle("dark-theme");
+      }
+
+      function longHair() {
+        let userName = prompt("Hello Beautiful, what's your name ?");
+        let userChoice = prompt(
+          "Do you want to know how to grow long hair?"
+        ).toLocaleLowerCase();
+
+        if (userChoice == "yes") {
+          alert("Click on the first image to listen to a Natural Hair Video!");
+        } else {
+          alert("Have a great day!");
+        }
+      }
+
+      let longHairTips = document.querySelector(".product-button");
+      longHairTips.addEventListener("click", longHair);
+
+      let themeButton = document.querySelector("button");
+      themeButton.addEventListener("click", darkMode);
+    </script>
+  </body>
+</html>
